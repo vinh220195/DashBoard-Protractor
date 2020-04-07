@@ -1,0 +1,33 @@
+{
+  "name": "dashboard-protractor",
+  "version": "1.0.0",
+  "description": "Test dashboard at http://192.168.171.130/ Staging version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "run": "protractor built/config/conf.js",
+    "tscrun": "tsc & protractor built/config/conf.js"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.5.10",
+    "@types/node": "^13.9.3",
+    "protractor": "^5.4.3",
+    "typescript": "^3.8.3",
+    "typescript-logger": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/incontact1/dashboard-protractor.git"
+  },
+  "keywords": [
+    "dashboard",
+    "protractor"
+  ],
+  "author": "VinhNT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/incontact1/dashboard-protractor/issues"
+  },
+  "homepage": "https://gitlab.com/incontact1/dashboard-protractor#readme"
+}

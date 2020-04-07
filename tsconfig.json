@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "outDir": "built", // compiled js file built in 
+        "sourceMap": true  // for debugger 
+    }
+}
